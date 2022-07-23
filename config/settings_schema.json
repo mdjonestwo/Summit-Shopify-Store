@@ -273,6 +273,13 @@
     "name": "t:settings_schema.variant_pills.name",
     "settings": [
       {
+<<<<<<< HEAD
+=======
+        "type": "paragraph",
+        "content": "t:settings_schema.variant_pills.paragraph"
+      },
+      {
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
       },

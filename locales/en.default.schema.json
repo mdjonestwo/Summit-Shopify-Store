@@ -163,7 +163,12 @@
       "name": "Buttons"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Variant pills"
+=======
+      "name": "Variant pills",
+      "paragraph": "Variant pills are one way of displaying your product variants. [Learn more](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Inputs"
@@ -302,7 +307,11 @@
           "header": "Cart drawer",
           "collection": {
             "label": "Collection",
+<<<<<<< HEAD
             "info": "Visible when cart drawer is empty"
+=======
+            "info": "Visible when cart drawer is empty."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Text"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Text alignment",
+              "options__1": {
+                "label": "Left"
+              },
+              "options__2": {
+                "label": "Center"
+              },
+              "options__3": {
+                "label": "Right"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Link"
             }
@@ -1246,6 +1270,18 @@
         "name": "Image with text"
       }
     },
+<<<<<<< HEAD
+=======
+    "main-account": {
+      "name": "Account"
+    },
+    "main-activate-account": {
+      "name": "Account activation"
+    },
+    "main-addresses": {
+      "name": "Addresses"
+    },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     "main-article": {
       "name": "Blog post",
       "blocks": {
@@ -1511,6 +1547,15 @@
         }
       }
     },
+<<<<<<< HEAD
+=======
+    "main-login": {
+      "name": "Login"
+    },
+    "main-order": {
+      "name": "Order"
+    },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     "main-page": {
       "name": "Page"
     },
@@ -1833,6 +1878,15 @@
         }
       }
     },
+<<<<<<< HEAD
+=======
+    "main-register": {
+      "name": "Registration"
+    },
+    "main-reset-password": {
+      "name": "Password reset"
+    },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     "main-search": {
       "name": "Search results",
       "settings": {
@@ -2737,4 +2791,8 @@
       }
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a

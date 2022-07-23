@@ -646,6 +646,18 @@ a.product__text {
   box-shadow: none;
 }
 
+<<<<<<< HEAD
+=======
+/* outline styling for Windows High Contrast Mode */
+@media (forced-colors: active) {
+  .product__media-toggle:focus-visible,
+  .product__media-toggle:focus-visible:after,
+  .product-form__input input[type="radio"]:focus-visible + label {
+    outline: transparent solid 1px;
+    outline-offset: 2px;
+  }
+}
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
 .product__media-toggle.focused {
   outline: 0;
   box-shadow: none;
@@ -1098,6 +1110,16 @@ a.product__text {
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),0 0 0rem 0.5rem rgba(var(--color-foreground), 0.5);
 }
 
+<<<<<<< HEAD
+=======
+/* outline styling for Windows High Contrast Mode */
+@media (forced-colors: active) {
+  .thumbnail[aria-current]:focus,
+  .thumbnail.focused {
+    outline: transparent solid 1px;
+  }
+}
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
 .thumbnail[aria-current]:focus:not(:focus-visible) {
   outline: 0;
   box-shadow: 0 0 0 0.1rem rgb(var(--color-foreground));

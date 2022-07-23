@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Đặt lại mật khẩu tài khoản",
+<<<<<<< HEAD
       "subtext": "Nhập mật khẩu mới cho {{ email }}",
+=======
+      "subtext": "Nhập mật khẩu mới",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Mật khẩu",
       "password_confirm": "Xác nhận mật khẩu",
       "submit": "Đặt lại mật khẩu"

@@ -282,7 +282,12 @@
       "name": "Knappar"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Variantkapslar"
+=======
+      "name": "Variantkapslar",
+      "paragraph": "Variantpiller är ett sätt att visa produktvarianter på. [Mer information](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Inmatningar"
@@ -325,7 +330,11 @@
           "header": "Varukorgspanel",
           "collection": {
             "label": "Produktserie",
+<<<<<<< HEAD
             "info": "Synlig när varukorgspanelen är tom"
+=======
+            "info": "Synlig när varukorgspanelen är tom."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -382,6 +391,21 @@
             "text": {
               "label": "Text"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Textjustering",
+              "options__1": {
+                "label": "Vänster"
+              },
+              "options__2": {
+                "label": "Centrera"
+              },
+              "options__3": {
+                "label": "Höger"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Länk"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Innehåll som kan döljas"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Kontoaktivering"
+    },
+    "main-addresses": {
+      "name": "Adresser"
+    },
+    "main-login": {
+      "name": "Inloggning"
+    },
+    "main-order": {
+      "name": "Order"
+    },
+    "main-register": {
+      "name": "Registrering"
+    },
+    "main-reset-password": {
+      "name": "Lösenordsåterställning"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

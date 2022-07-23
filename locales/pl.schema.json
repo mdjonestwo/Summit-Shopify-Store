@@ -282,7 +282,12 @@
       "name": "Przyciski"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Okrągłe przełączniki wariantów"
+=======
+      "name": "Okrągłe przełączniki wariantów",
+      "paragraph": "Okrągłe przełączniki wariantów to jeden ze sposobów wyświetlania wariantów produktów. [Dowiedz się więcej](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Dane wejściowe"
@@ -325,7 +330,11 @@
           "header": "Szuflada koszyka",
           "collection": {
             "label": "Kolekcja",
+<<<<<<< HEAD
             "info": "Widoczny, gdy szuflada koszyka jest pusta"
+=======
+            "info": "Widoczne, gdy szuflada koszyka jest pusta"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Tekst"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Wyrównanie tekstu",
+              "options__1": {
+                "label": "Lewa strona"
+              },
+              "options__2": {
+                "label": "Środek"
+              },
+              "options__3": {
+                "label": "Prawa strona"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Link"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Zwijana treść"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Aktywacja konta"
+    },
+    "main-addresses": {
+      "name": "Adresy"
+    },
+    "main-login": {
+      "name": "Zaloguj"
+    },
+    "main-order": {
+      "name": "Zamówienie"
+    },
+    "main-register": {
+      "name": "Rejestracja"
+    },
+    "main-reset-password": {
+      "name": "Resetowanie hasła"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

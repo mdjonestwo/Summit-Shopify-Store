@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "重置账户密码",
+<<<<<<< HEAD
       "subtext": "输入 {{ email }} 的新密码",
+=======
+      "subtext": "输入新密码",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "密码",
       "password_confirm": "确认密码",
       "submit": "重置密码"

@@ -282,7 +282,12 @@
       "name": "Boutons"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Boutons pilule de variante"
+=======
+      "name": "Boutons pilule de variante",
+      "paragraph": "Les boutons pilule de variante servent à afficher les variantes de produit. [En savoir plus](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Entrées"
@@ -325,7 +330,11 @@
           "header": "Panier coulissant",
           "collection": {
             "label": "Collection",
+<<<<<<< HEAD
             "info": "Visible lorsque le panier coulissant est vide"
+=======
+            "info": "Visible lorsque le panier coulissant est vide."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Texte"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Alignement du texte",
+              "options__1": {
+                "label": "Gauche"
+              },
+              "options__2": {
+                "label": "Centre"
+              },
+              "options__3": {
+                "label": "Droite"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Lien"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Contenu réductible"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Compte"
+    },
+    "main-activate-account": {
+      "name": "Activation du compte"
+    },
+    "main-addresses": {
+      "name": "Adresses"
+    },
+    "main-login": {
+      "name": "Se connecter"
+    },
+    "main-order": {
+      "name": "Commande"
+    },
+    "main-register": {
+      "name": "Inscription"
+    },
+    "main-reset-password": {
+      "name": "Réinitialisation du mot de passe"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

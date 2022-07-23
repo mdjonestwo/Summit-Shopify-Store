@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 {"sections":{"main":{"type":"main-404","settings":{}}},"order":["main"]}
+=======
+{
+  "sections": {
+    "main": {
+      "type": "main-404"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a

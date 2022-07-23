@@ -282,7 +282,12 @@
       "name": "Botones"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Botones de variantes"
+=======
+      "name": "Botones de variantes",
+      "paragraph": "Los botones de variantes son una forma de mostrar las variantes de producto. [Más información](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Entradas"
@@ -325,7 +330,11 @@
           "header": "Carrito lateral",
           "collection": {
             "label": "Colección",
+<<<<<<< HEAD
             "info": "Visible cuando el carrito lateral está vacío"
+=======
+            "info": "Visible cuando el carrito lateral está vacío."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Texto"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Alineación de texto",
+              "options__1": {
+                "label": "Izquierda"
+              },
+              "options__2": {
+                "label": "Centrado"
+              },
+              "options__3": {
+                "label": "Derecha"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Enlace"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Contenido desplegable"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Cuenta"
+    },
+    "main-activate-account": {
+      "name": "Activación de cuenta"
+    },
+    "main-addresses": {
+      "name": "Direcciones"
+    },
+    "main-login": {
+      "name": "Inicio de sesión"
+    },
+    "main-order": {
+      "name": "Pedido"
+    },
+    "main-register": {
+      "name": "Registro"
+    },
+    "main-reset-password": {
+      "name": "Restablecimiento de contraseña"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

@@ -282,7 +282,12 @@
       "name": "Painikkeet"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Versioiden kuvakkeet"
+=======
+      "name": "Versioiden kuvakkeet",
+      "paragraph": "Versiopillerit ovat yksi tapa näyttää tuoteversiosi asiakkaille. [Lisätietoja](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Syötteet"
@@ -325,7 +330,11 @@
           "header": "Veto-ostoskori",
           "collection": {
             "label": "Kokoelma",
+<<<<<<< HEAD
             "info": "Näkyy, kun veto-ostoskori on tyhjä"
+=======
+            "info": "Näkyy, kun veto-ostoskori on tyhjä."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Teksti"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Tekstin tasaus",
+              "options__1": {
+                "label": "Vasen"
+              },
+              "options__2": {
+                "label": "Keskitetty"
+              },
+              "options__3": {
+                "label": "Oikea"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Linkki"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Pienenettävä sisältö"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Tili"
+    },
+    "main-activate-account": {
+      "name": "Tilin aktivointi"
+    },
+    "main-addresses": {
+      "name": "Osoitteet"
+    },
+    "main-login": {
+      "name": "Kirjautuminen"
+    },
+    "main-order": {
+      "name": "Tilaus"
+    },
+    "main-register": {
+      "name": "Rekisteröinti"
+    },
+    "main-reset-password": {
+      "name": "Salasanan palautus"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

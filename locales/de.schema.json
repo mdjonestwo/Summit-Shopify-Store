@@ -282,7 +282,12 @@
       "name": "Schaltflächen"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Varianten-Kapseln"
+=======
+      "name": "Varianten-Kapseln",
+      "paragraph": "Varianten-Kapseln sind eine Möglichkeit, deine Produktvarianten zu präsentieren. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Eingaben"
@@ -325,7 +330,11 @@
           "header": "Warenkorbeinschub",
           "collection": {
             "label": "Kategorie",
+<<<<<<< HEAD
             "info": "Sichtbar, wenn der Warenkorbeinschub leer ist"
+=======
+            "info": "Sichtbar, wenn der Warenkorbeinschub leer ist."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -385,6 +394,21 @@
             },
             "link": {
               "label": "Link"
+<<<<<<< HEAD
+=======
+            },
+            "text_alignment": {
+              "label": "Textausrichtung",
+              "options__1": {
+                "label": "Links"
+              },
+              "options__2": {
+                "label": "Zentriert"
+              },
+              "options__3": {
+                "label": "Rechts"
+              }
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             }
           }
         }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Einklappbarer Inhalt"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Kontoaktivierung"
+    },
+    "main-addresses": {
+      "name": "Adressen"
+    },
+    "main-login": {
+      "name": "Login"
+    },
+    "main-order": {
+      "name": "Bestellung"
+    },
+    "main-register": {
+      "name": "Registrierung"
+    },
+    "main-reset-password": {
+      "name": "Passwort zurücksetzen"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

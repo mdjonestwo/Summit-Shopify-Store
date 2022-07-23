@@ -1,7 +1,14 @@
 .customer:not(.account):not(.order) {
+<<<<<<< HEAD
   margin: 6rem auto 9rem;
   max-width: 33.4rem;
   padding: 0 1.5rem;
+=======
+  margin: 0 auto;
+  max-width: 33.4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
   text-align: center;
 }
 
@@ -11,6 +18,14 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+.customer > h1,
+.customer__title {
+  margin-top: 0;
+}
+
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
 .customer form {
   margin-top: 4rem;
 }
@@ -395,14 +410,26 @@
 
 /* Account/Order */
 :is(.account, .order) {
+<<<<<<< HEAD
   margin: 6rem auto 9rem;
   max-width: var(--page-width);
   padding: 0 2rem;
+=======
+  margin: 0 auto;
+  max-width: var(--page-width);
+  padding-left: 2rem;
+  padding-right: 2rem;
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
 }
 
 @media screen and (min-width: 750px) {
   :is(.account, .order) {
+<<<<<<< HEAD
     padding: 0 5rem;
+=======
+    padding-left: 5rem;
+    padding-right: 5rem;
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
   }
 }
 

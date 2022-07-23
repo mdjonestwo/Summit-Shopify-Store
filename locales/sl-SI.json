@@ -417,7 +417,11 @@
     },
     "reset_password": {
       "title": "Ponastavitev gesla za račun",
+<<<<<<< HEAD
       "subtext": "Vnesite novo geslo za {{ email }}",
+=======
+      "subtext": "Vnesite novo geslo",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Geslo",
       "password_confirm": "Potrdite geslo",
       "submit": "Ponastavi geslo"

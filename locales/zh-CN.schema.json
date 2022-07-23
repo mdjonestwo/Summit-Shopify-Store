@@ -282,7 +282,12 @@
       "name": "按钮"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "多属性椭圆形框"
+=======
+      "name": "多属性椭圆形框",
+      "paragraph": "多属性椭圆形框是显示产品多属性的一种方式。[了解详细信息](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "输入"
@@ -325,7 +330,11 @@
           "header": "购物车抽屉",
           "collection": {
             "label": "产品系列",
+<<<<<<< HEAD
             "info": "在购物车抽屉为空时可见"
+=======
+            "info": "在购物车抽屉为空时可见。"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -382,6 +391,21 @@
             "text": {
               "label": "文本"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "文本对齐方式",
+              "options__1": {
+                "label": "左"
+              },
+              "options__2": {
+                "label": "居中"
+              },
+              "options__3": {
+                "label": "右"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "链接"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "可折叠内容"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "账户"
+    },
+    "main-activate-account": {
+      "name": "账户激活"
+    },
+    "main-addresses": {
+      "name": "地址"
+    },
+    "main-login": {
+      "name": "登录"
+    },
+    "main-order": {
+      "name": "订单"
+    },
+    "main-register": {
+      "name": "注册"
+    },
+    "main-reset-password": {
+      "name": "密码重设"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

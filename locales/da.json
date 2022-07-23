@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Forny adgangskode til konto",
+<<<<<<< HEAD
       "subtext": "Indtast en ny adgangskode for {{ email }}",
+=======
+      "subtext": "Indtast en ny adgangskode",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Adgangskode",
       "password_confirm": "Bekræft adgangskode",
       "submit": "Nulstil adgangskode"

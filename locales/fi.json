@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Palauta tilin salasana",
+<<<<<<< HEAD
       "subtext": "Anna uusi salasana tilille {{ email }}",
+=======
+      "subtext": "Syötä uusi salasana",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Salasana",
       "password_confirm": "Vahvista salasana",
       "submit": "Nollaa salasana"

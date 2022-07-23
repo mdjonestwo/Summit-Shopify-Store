@@ -410,7 +410,11 @@
     },
     "reset_password": {
       "title": "Reimposta la password dell'account",
+<<<<<<< HEAD
       "subtext": "Inserisci una nuova password per {{ email }}",
+=======
+      "subtext": "Inserisci una nuova password",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Password",
       "password_confirm": "Conferma password",
       "submit": "Reimposta password"

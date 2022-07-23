@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "계정 비밀번호 재설정",
+<<<<<<< HEAD
       "subtext": "{{ email }}의 새 비밀번호 입력",
+=======
+      "subtext": "새 비밀번호 입력",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "비밀번호",
       "password_confirm": "비밀번호 확인",
       "submit": "비밀번호 재설정"

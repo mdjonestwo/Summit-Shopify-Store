@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "重設帳號密碼",
+<<<<<<< HEAD
       "subtext": "輸入 {{ email }} 的新密碼",
+=======
+      "subtext": "輸入新密碼",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "密碼",
       "password_confirm": "確認密碼",
       "submit": "重設密碼"

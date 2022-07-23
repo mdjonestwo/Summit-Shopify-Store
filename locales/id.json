@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Reset sandi akun",
+<<<<<<< HEAD
       "subtext": "Masukkan sandi baru untuk {{ email }}",
+=======
+      "subtext": "Masukkan sandi baru",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Sandi",
       "password_confirm": "Konfirmasi sandi",
       "submit": "Reset sandi"

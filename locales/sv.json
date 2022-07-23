@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Återställ kontolösenord",
+<<<<<<< HEAD
       "subtext": "Ange ett nytt lösenord för {{ email }}",
+=======
+      "subtext": "Ange ett nytt lösenord",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Lösenord",
       "password_confirm": "Bekräfta lösenordet",
       "submit": "Återställ lösenord"

@@ -385,7 +385,11 @@
     },
     "reset_password": {
       "title": "Redefinir senha da conta",
+<<<<<<< HEAD
       "subtext": "Insira uma nova senha para {{ email }}",
+=======
+      "subtext": "Insira uma nova senha",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Senha",
       "password_confirm": "Confirmar senha",
       "submit": "Redefinir senha"

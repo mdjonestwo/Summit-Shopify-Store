@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Account-wachtwoord opnieuw instellen",
+<<<<<<< HEAD
       "subtext": "Voer een nieuw wachtwoord in voor {{ email }}",
+=======
+      "subtext": "Voer een nieuw wachtwoord in",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Wachtwoord",
       "password_confirm": "Wachtwoord bevestigen",
       "submit": "Wachtwoord opnieuw instellen"

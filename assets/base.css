@@ -544,10 +544,13 @@ table:not([class]) th {
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
 }
 
+<<<<<<< HEAD
 .hidden {
   display: none !important;
 }
 
+=======
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
 @media screen and (max-width: 749px) {
   .small-hide {
     display: none !important;
@@ -2164,7 +2167,11 @@ input[type='checkbox'] {
 .announcement-bar__link {
   display: block;
   width: 100%;
+<<<<<<< HEAD
   padding: 1rem 2rem;
+=======
+  padding: 1rem 0;
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
   text-decoration: none;
 }
 
@@ -2186,8 +2193,12 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__message {
+<<<<<<< HEAD
   text-align: center;
   padding: 1rem 2rem;
+=======
+  padding: 1rem 0;
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
   margin: 0;
   letter-spacing: 0.1rem;
 }
@@ -2886,3 +2897,37 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+<<<<<<< HEAD
+=======
+
+/* outline and border styling for Windows High Contrast Mode */
+@media (forced-colors: active) {
+  .button,
+  .shopify-challenge__button,
+  .customer button {
+    border: transparent solid 1px;
+  }
+
+  .button:focus-visible,
+  .button:focus,
+  .button.focused,
+  .shopify-payment-button__button--unbranded:focus-visible,
+  .shopify-payment-button [role="button"]:focus-visible,
+  .shopify-payment-button__button--unbranded:focus,
+  .shopify-payment-button [role="button"]:focus {
+    outline: solid transparent 1px;
+  }
+
+  .field__input:focus,
+  .select__select:focus,
+  .customer .field input:focus,
+  .customer select:focus,
+  .localization-form__select:focus.localization-form__select:after {
+    outline: transparent solid 1px;
+  }
+
+  .localization-form__select:focus {
+    outline: transparent solid 1px;
+  }
+}
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a

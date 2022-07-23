@@ -385,7 +385,11 @@
     },
     "reset_password": {
       "title": "Restablecer contraseña de cuenta",
+<<<<<<< HEAD
       "subtext": "Ingresa una nueva contraseña para {{ email }}",
+=======
+      "subtext": "Introduce una nueva contraseña.",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Contraseña",
       "password_confirm": "Confirmar contraseña",
       "submit": "Restablecer contraseña"

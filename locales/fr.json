@@ -385,7 +385,11 @@
     },
     "reset_password": {
       "title": "Réinitialiser le mot de passe du compte",
+<<<<<<< HEAD
       "subtext": "Saisir un nouveau mot de passe pour {{ email }}",
+=======
+      "subtext": "Saisissez un nouveau mot de passe",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Mot de passe",
       "password_confirm": "Confirmer le mot de passe",
       "submit": "Réinitialiser le mot de passe"

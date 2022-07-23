@@ -403,7 +403,11 @@
     },
     "reset_password": {
       "title": "Tilbakestill kontopassord",
+<<<<<<< HEAD
       "subtext": "Skriv inn et nytt passord for {{ email }}",
+=======
+      "subtext": "Angi et nytt passord",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Passord",
       "password_confirm": "Bekreft passord",
       "submit": "Tilbakestill passord"

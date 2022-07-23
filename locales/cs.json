@@ -392,7 +392,11 @@
     },
     "reset_password": {
       "title": "Resetujte heslo účtu",
+<<<<<<< HEAD
       "subtext": "Zadejte nové heslo pro {{ email }}",
+=======
+      "subtext": "Zadejte nové heslo",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Heslo",
       "password_confirm": "Potvrdit heslo",
       "submit": "Resetovat heslo"

@@ -417,7 +417,11 @@
     },
     "reset_password": {
       "title": "Zresetuj hasło do konta",
+<<<<<<< HEAD
       "subtext": "Wprowadź nowe hasło do {{ email }}",
+=======
+      "subtext": "Wprowadź nowe hasło",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Hasło",
       "password_confirm": "Potwierdź hasło",
       "submit": "Zresetuj hasło"

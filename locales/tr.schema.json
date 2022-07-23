@@ -282,7 +282,12 @@
       "name": "Düğmeler"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Varyasyon seçenekleri"
+=======
+      "name": "Varyasyon seçenekleri",
+      "paragraph": "Varyasyon seçenekleri, ürün varyasyonlarınızı göstermenin bir yoludur. [Daha fazla bilgi edinin](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Girdiler"
@@ -325,7 +330,11 @@
           "header": "Sepet çekmecesi",
           "collection": {
             "label": "Koleksiyon",
+<<<<<<< HEAD
             "info": "Sepet çekmecesi boşken görünür"
+=======
+            "info": "Sepet çekmecesi boşken görünür."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Metin"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Metin hizalaması",
+              "options__1": {
+                "label": "Sol"
+              },
+              "options__2": {
+                "label": "Orta"
+              },
+              "options__3": {
+                "label": "Sağ"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Bağlantı"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Daraltılabilir içerik"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Hesap"
+    },
+    "main-activate-account": {
+      "name": "Hesap etkinleştirme"
+    },
+    "main-addresses": {
+      "name": "Adresler"
+    },
+    "main-login": {
+      "name": "Giriş bilgileri"
+    },
+    "main-order": {
+      "name": "Sipariş"
+    },
+    "main-register": {
+      "name": "Kayıt"
+    },
+    "main-reset-password": {
+      "name": "Parola sıfırlama"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

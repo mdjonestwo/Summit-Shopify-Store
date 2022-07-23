@@ -282,7 +282,12 @@
       "name": "Tlačítka"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Kulaté přepínače variant"
+=======
+      "name": "Kulaté přepínače variant",
+      "paragraph": "Kulaté přepínače variant jsou jedním ze způsobů, jak zobrazit varianty produktu. [Zjistit více](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Vstupy"
@@ -325,7 +330,11 @@
           "header": "Výsuvný košík",
           "collection": {
             "label": "Kolekce",
+<<<<<<< HEAD
             "info": "Zobrazí se v případě, že výsuvný košík je prázdný"
+=======
+            "info": "Zobrazí se v případě, že je výsuvný košík prázdný."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Text"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Zarovnání textu",
+              "options__1": {
+                "label": "Doleva"
+              },
+              "options__2": {
+                "label": "Na střed"
+              },
+              "options__3": {
+                "label": "Doprava"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Odkaz"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Sbalitelný obsah"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Účet"
+    },
+    "main-activate-account": {
+      "name": "Aktivace účtu"
+    },
+    "main-addresses": {
+      "name": "Adresy"
+    },
+    "main-login": {
+      "name": "Přihlášení"
+    },
+    "main-order": {
+      "name": "Objednávka"
+    },
+    "main-register": {
+      "name": "Registrace"
+    },
+    "main-reset-password": {
+      "name": "Reset hesla"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

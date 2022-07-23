@@ -282,7 +282,12 @@
       "name": "Knapper"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Variantknapper"
+=======
+      "name": "Variantknapper",
+      "paragraph": "Variantknapper er én måte å presentere produktvarianter på. [Finn ut mer](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Inputs"
@@ -325,7 +330,11 @@
           "header": "Handlekurvskuff",
           "collection": {
             "label": "Samling",
+<<<<<<< HEAD
             "info": "Synlig når handlekurvskuffen er tom"
+=======
+            "info": "Synlig når handlekurvskuffen er tom."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Tekst"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Tekstjustering",
+              "options__1": {
+                "label": "Venstre"
+              },
+              "options__2": {
+                "label": "Sentrert"
+              },
+              "options__3": {
+                "label": "Høyre"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Kobling"
             }
@@ -491,7 +515,11 @@
             "label": "Portrett"
           },
           "options__3": {
+<<<<<<< HEAD
             "label": "Square"
+=======
+            "label": "Firkant"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           },
           "info": "Legg til bilder ved å redigere samlingene dine. [Finn ut mer](https://help.shopify.com/manual/products/collections)"
         },
@@ -609,7 +637,11 @@
             "label": "Portrett"
           },
           "options__3": {
+<<<<<<< HEAD
             "label": "Square"
+=======
+            "label": "Firkant"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         },
         "show_secondary_image": {
@@ -1275,7 +1307,11 @@
             "label": "Portrett"
           },
           "options__3": {
+<<<<<<< HEAD
             "label": "Square"
+=======
+            "label": "Firkant"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         },
         "show_secondary_image": {
@@ -1368,7 +1404,11 @@
             "label": "Portrett"
           },
           "options__3": {
+<<<<<<< HEAD
             "label": "Square"
+=======
+            "label": "Firkant"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           },
           "info": "Legg til bilder ved å redigere samlingene dine. [Finn ut mer](https://help.shopify.com/manual/products/collections)"
         },
@@ -1723,7 +1763,11 @@
             "label": "Portrett"
           },
           "options__3": {
+<<<<<<< HEAD
             "label": "Square"
+=======
+            "label": "Firkant"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         },
         "show_secondary_image": {
@@ -1792,7 +1836,11 @@
             "label": "Portrett"
           },
           "options__3": {
+<<<<<<< HEAD
             "label": "Square"
+=======
+            "label": "Firkant"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           },
           "options__4": {
             "label": "Sirkel"
@@ -1931,7 +1979,11 @@
             "label": "Portrett"
           },
           "options__3": {
+<<<<<<< HEAD
             "label": "Square"
+=======
+            "label": "Firkant"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         },
         "show_secondary_image": {
@@ -2735,6 +2787,30 @@
       "presets": {
         "name": "Sammenleggbart innhold"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Kontoaktivering"
+    },
+    "main-addresses": {
+      "name": "Adresser"
+    },
+    "main-login": {
+      "name": "Logg på"
+    },
+    "main-order": {
+      "name": "Bestilling"
+    },
+    "main-register": {
+      "name": "Registrering"
+    },
+    "main-reset-password": {
+      "name": "Tilbakestill passord"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

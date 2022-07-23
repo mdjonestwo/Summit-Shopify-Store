@@ -282,7 +282,12 @@
       "name": "Knapper"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Variantetiketter"
+=======
+      "name": "Variantetiketter",
+      "paragraph": "Variantetiketter er en måde at vise dine produktvarianter på. [Få mere at vide](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Inputs"
@@ -325,7 +330,11 @@
           "header": "Indkøbskurvskuffe",
           "collection": {
             "label": "Kollektion",
+<<<<<<< HEAD
             "info": "Synlig, når indkøbskurvskuffen er tom"
+=======
+            "info": "Synlig, når indkøbskurvskuffen er tom."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Tekstfarve"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Tekstjustering",
+              "options__1": {
+                "label": "Venstre"
+              },
+              "options__2": {
+                "label": "Centreret"
+              },
+              "options__3": {
+                "label": "Højre"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Link"
             }
@@ -1597,7 +1621,11 @@
                 "label": "Genanvendelse"
               },
               "options__34": {
+<<<<<<< HEAD
                 "label": "Returnering"
+=======
+                "label": "Gå tilbage"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
               },
               "options__35": {
                 "label": "Lineal"
@@ -2696,7 +2724,11 @@
                 "label": "Genanvendelse"
               },
               "options__34": {
+<<<<<<< HEAD
                 "label": "Returnering"
+=======
+                "label": "Gå tilbage"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
               },
               "options__35": {
                 "label": "Lineal"
@@ -2735,6 +2767,30 @@
       "presets": {
         "name": "Indhold, der kan skjules"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Aktivering af konto"
+    },
+    "main-addresses": {
+      "name": "Adresser"
+    },
+    "main-login": {
+      "name": "Login"
+    },
+    "main-order": {
+      "name": "Ordre"
+    },
+    "main-register": {
+      "name": "Registrering"
+    },
+    "main-reset-password": {
+      "name": "Nulstilling af adgangskode"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

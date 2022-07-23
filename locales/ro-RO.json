@@ -385,7 +385,11 @@
     },
     "reset_password": {
       "title": "Resetați parola contului",
+<<<<<<< HEAD
       "subtext": "Introduceți o nouă parolă pentru {{ email }}",
+=======
+      "subtext": "Introdu o parolă nouă",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Parolă",
       "password_confirm": "Confirmați parola",
       "submit": "Resetați parola"

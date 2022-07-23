@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Új fiókjelszó létrehozása",
+<<<<<<< HEAD
       "subtext": "Írd be az ehhez az e-mail-címhez tartozó új jelszót: {{ email }}.",
+=======
+      "subtext": "Írd be az új jelszót",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Jelszó",
       "password_confirm": "Jelszó megerősítése",
       "submit": "Új jelszó készítése"

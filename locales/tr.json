@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Hesap parolasını sıfırlayın",
+<<<<<<< HEAD
       "subtext": "{{ email }} için yeni bir parola girin",
+=======
+      "subtext": "Yeni bir parola girin",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Parola",
       "password_confirm": "Parolayı doğrula",
       "submit": "Parolayı sıfırla"

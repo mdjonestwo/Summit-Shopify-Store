@@ -378,7 +378,11 @@
     },
     "reset_password": {
       "title": "Passwort für Konto zurücksetzen",
+<<<<<<< HEAD
       "subtext": "Gib ein neues Passwort für {{ email }} ein",
+=======
+      "subtext": "Neues Passwort eingeben",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Passwort",
       "password_confirm": "Passwort bestätigen",
       "submit": "Passwort zurücksetzen"

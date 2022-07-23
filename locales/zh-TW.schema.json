@@ -282,7 +282,12 @@
       "name": "按鈕"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "子類藥丸"
+=======
+      "name": "子類藥丸",
+      "paragraph": "子類藥丸是顯示商品子類選項的一種方式。[瞭解詳情](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "輸入"
@@ -325,7 +330,11 @@
           "header": "購物車導覽匣",
           "collection": {
             "label": "商品系列",
+<<<<<<< HEAD
             "info": "在購物車導覽匣沒有商品時顯示"
+=======
+            "info": "在購物車導覽匣沒有商品時顯示。"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -382,6 +391,21 @@
             "text": {
               "label": "文字"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "文字對齊方式",
+              "options__1": {
+                "label": "靠左"
+              },
+              "options__2": {
+                "label": "置中"
+              },
+              "options__3": {
+                "label": "靠右"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "連結"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "可摺疊的內容"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "帳號"
+    },
+    "main-activate-account": {
+      "name": "啟用帳號"
+    },
+    "main-addresses": {
+      "name": "地址"
+    },
+    "main-login": {
+      "name": "登入"
+    },
+    "main-order": {
+      "name": "訂單"
+    },
+    "main-register": {
+      "name": "註冊"
+    },
+    "main-reset-password": {
+      "name": "重設密碼"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

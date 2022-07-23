@@ -282,7 +282,12 @@
       "name": "Nút"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Ô chọn mẫu mã"
+=======
+      "name": "Ô chọn mẫu mã",
+      "paragraph": "Ô chọn mẫu mã là một cách để hiển thị mẫu mã sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Thông tin đầu vào"
@@ -325,7 +330,11 @@
           "header": "Ngăn giỏ hàng",
           "collection": {
             "label": "Bộ sưu tập",
+<<<<<<< HEAD
             "info": "Hiển thị khi ngăn giỏ hàng trống"
+=======
+            "info": "Hiển thị khi ngăn giỏ hàng trống."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -383,6 +392,21 @@
             "text": {
               "label": "Văn bản"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Căn chỉnh văn bản",
+              "options__1": {
+                "label": "Bên trái"
+              },
+              "options__2": {
+                "label": "Ở giữa"
+              },
+              "options__3": {
+                "label": "Bên phải"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Liên kết"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Nội dung có thể thu gọn"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Tài khoản"
+    },
+    "main-activate-account": {
+      "name": "Kích hoạt tài khoản"
+    },
+    "main-addresses": {
+      "name": "Địa chỉ"
+    },
+    "main-login": {
+      "name": "Đăng nhập"
+    },
+    "main-order": {
+      "name": "Đơn hàng"
+    },
+    "main-register": {
+      "name": "Đăng ký"
+    },
+    "main-reset-password": {
+      "name": "Đặt lại mật khẩu"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }

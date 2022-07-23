@@ -403,7 +403,11 @@
     },
     "reset_password": {
       "title": "Reset account password",
+<<<<<<< HEAD
       "subtext": "Enter a new password for {{ email }}",
+=======
+      "subtext": "Enter a new password",
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
       "password": "Password",
       "password_confirm": "Confirm password",
       "submit": "Reset password"

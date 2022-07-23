@@ -282,7 +282,12 @@
       "name": "Botões"
     },
     "variant_pills": {
+<<<<<<< HEAD
       "name": "Variantes com forma de comprimidos"
+=======
+      "name": "Variantes com forma de comprimidos",
+      "paragraph": "As variantes com forma de comprimidos são uma forma de apresentar as variantes do seu produto. [Saber mais](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     },
     "inputs": {
       "name": "Entradas"
@@ -325,7 +330,11 @@
           "header": "Painel deslizante do carrinho",
           "collection": {
             "label": "Coleção",
+<<<<<<< HEAD
             "info": "Visível quando o painel deslizante do carrinho está vazio"
+=======
+            "info": "Visível quando o painel deslizante do carrinho está vazio."
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
           }
         }
       }
@@ -382,6 +391,21 @@
             "text": {
               "label": "Texto"
             },
+<<<<<<< HEAD
+=======
+            "text_alignment": {
+              "label": "Alinhamento do texto",
+              "options__1": {
+                "label": "Esquerda"
+              },
+              "options__2": {
+                "label": "Centro"
+              },
+              "options__3": {
+                "label": "Direita"
+              }
+            },
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
             "link": {
               "label": "Ligação"
             }
@@ -2735,6 +2759,30 @@
       "presets": {
         "name": "Conteúdo recolhível"
       }
+<<<<<<< HEAD
+=======
+    },
+    "main-account": {
+      "name": "Conta"
+    },
+    "main-activate-account": {
+      "name": "Ativação de conta"
+    },
+    "main-addresses": {
+      "name": "Endereços"
+    },
+    "main-login": {
+      "name": "Iniciar sessão"
+    },
+    "main-order": {
+      "name": "Encomenda"
+    },
+    "main-register": {
+      "name": "Registo"
+    },
+    "main-reset-password": {
+      "name": "Redefinição de palavra-passe"
+>>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
     }
   }
 }
