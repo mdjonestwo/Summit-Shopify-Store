@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-{"sections":{"main":{"type":"main-list-collections","settings":{"title":"Shop by State","sort":"alphabetical","image_ratio":"square","columns_desktop":5,"columns_mobile":"2"}}},"order":["main"]}
-=======
+
 {
   "sections": {
     "main": {
@@ -16,4 +14,4 @@
     "main"
   ]
 }
->>>>>>> b7038b438ce91a2d7c62f69f8a286074b2a2b71a
+
