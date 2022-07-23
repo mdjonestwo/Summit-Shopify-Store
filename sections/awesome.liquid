@@ -1,15 +1,22 @@
 <style>
-
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .mainmenubtn {
-    background-color: skyblue;
+    background-color: #0e9c9a;
     color: white;
     border: none;
     cursor: pointer;
-    padding:20px;
+    text-align: left;
+    padding:10px 15px;
+    width: 300px;
     margin-top:20px;
+    border-radius: 5px;
 }
 .mainmenubtn:hover {
-    background-color: blue;
+    background-color: #0e9c9a;
     }
 .dropdown {
     position: relative;
@@ -17,11 +24,11 @@
 }
 .dropdown-child {
     display: none;
-    background-color: skyblue;
+    background-color: rgb(222, 222, 222);
     min-width: 200px;
 }
 .dropdown-child a {
-    color: blue;
+    color: #464646;
     padding: 20px;
     text-decoration: none;
     display: block;
@@ -35,10 +42,10 @@
 
     <div class="wrapper">
         <div class="dropdown">
-            <button class="mainmenubtn">Main Menu</button>
+            <button class="mainmenubtn">Select Your State</button>
             <div class="dropdown-child">
                 {% for collection in collections %}
-                <a href="">{{ collection.title }}</a>
+                <a href="{{collection.url}}">{{ collection.title }}</a>
                {% endfor %}
             </div>
           </div>
