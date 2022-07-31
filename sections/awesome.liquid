@@ -40,33 +40,71 @@
 
 
 
-    <div class="wrapper">
-        <div class="dropdown">
-            <button class="mainmenubtn">Select Your State</button>
-            <div class="dropdown-child">
-                {% for collection in collections %}
-                <a href="{{collection.url}}">{{ collection.title }}</a>
-               {% endfor %}
-            </div>
-          </div>
-    </div>
+<div class="wrapper">
+    <div class="dropdown">
+        <button class="mainmenubtn">Main Menu</button>
+        <div class="dropdown-child">
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">Alabama</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-10">Alaska</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">American Samoa</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">Arizona</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-6">Arkansas</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">California</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-8">Colorado</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">Commonwealth of Northern Mariana Islands</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-1">Connecticut</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-3">Delaware</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-3">District of Columbia</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">Federated States of Micronesia</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">Florida</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">Georgia</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">Guam</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">Hawaii</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-10">Idaho</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-5">Illinois</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-5">Indiana</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-7">Iowa</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-7">Kansas</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">Kentucky</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-6">Louisiana</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-1">Main</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-3">Maryland</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-1">Massachusetts</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-5">Michigan</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-5">Minnesota</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">Mississippi</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-7">Missouri</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-8">Montana</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-7">Nebraska</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">Nevada</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-1">New Hampshire</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-2">New Jersey</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-6">New Mexico</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-2">New York</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">North Carolina</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-8">North Dakota</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-5">Ohio</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-6">Oklahoma</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-10">Oregon</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-3">Pennsylvania</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-2">Puerto Rico</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-9">Republic of Marshall Islands</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-1">Rhode Island</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">South Carolina</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-8">South Dakota</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-4">Tennessee</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-6">Texas</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-8">Utah</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-1">Vermont</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-3">Virginia</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-2">Virgin Islands</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-10">Washington</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-3">West Virginia</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-5">Wisconsin</a>
+            <a href="https://summit-environmental.myshopify.com/collections/region-8">Wyoming</a>
 
-    {% schema %}
-    {
-        "name": "Collections Dropdown",
-        "settings": [
-        {
-            "type": "collection",
-            "id": "collection",
-            "label": "Collection ",
-            "info": "Choose a collection"
-         }
-        ],
-        "presets":[
-        {
-            "name": "Collection Dropdown",
-            "category": "Custom"
-        }
-        ]
-    }
-    {% endschema %}
+        </div>
+      </div>
+</div>
+
+
