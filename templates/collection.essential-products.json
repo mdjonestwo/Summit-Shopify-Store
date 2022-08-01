@@ -6,7 +6,7 @@
         "1659300728d6a826a0-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Here's Your Recommended Products<\/p>",
+            "heading": "<p>Essential Survival Kits<\/p>",
             "heading_size": "h1"
           }
         }
@@ -25,6 +25,7 @@
     },
     "16593740938cb5bead": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "heading_size": "h1",
@@ -63,7 +64,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
