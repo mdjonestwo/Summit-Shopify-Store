@@ -130,7 +130,7 @@
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
             <span>
-              <!-- {% render 'icon-hamburger' %} -->
+              {% render 'icon-hamburger' %}
               {% render 'icon-close' %}
             </span>
           </summary>
@@ -579,15 +579,15 @@
           </span>
         </a>
       {%- endif -%}
-<!-- 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" style="color: #F28920" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
           else
             render 'icon-cart'
           endif
-        -%} -->
+        -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
