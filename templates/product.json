@@ -3,6 +3,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.custom.weight | metafield_text }}",
+            "text_style": "uppercase"
+          }
+        },
         "vendor": {
           "type": "text",
           "disabled": true,
@@ -14,13 +22,6 @@
         "title": {
           "type": "title",
           "settings": {
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
@@ -95,12 +96,18 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "1b5938f1-6cb0-44ea-a157-d8bb22d2f65b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.variants.first.weight | weight_with_unit }}"
+          }
         }
       },
       "block_order": [
+        "caption",
         "vendor",
         "title",
-        "caption",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -110,7 +117,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "1b5938f1-6cb0-44ea-a157-d8bb22d2f65b"
       ],
       "settings": {
         "enable_sticky_info": true,
