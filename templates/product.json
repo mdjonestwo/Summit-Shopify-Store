@@ -24,6 +24,12 @@
           "settings": {
           }
         },
+        "1b5938f1-6cb0-44ea-a157-d8bb22d2f65b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.variants.first.weight | weight_with_unit }}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -96,18 +102,13 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "1b5938f1-6cb0-44ea-a157-d8bb22d2f65b": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{{ product.variants.first.weight | weight_with_unit }}"
-          }
         }
       },
       "block_order": [
         "caption",
         "vendor",
         "title",
+        "1b5938f1-6cb0-44ea-a157-d8bb22d2f65b",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -117,8 +118,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "1b5938f1-6cb0-44ea-a157-d8bb22d2f65b"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
