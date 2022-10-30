@@ -52,6 +52,11 @@
             "show_dynamic_checkout": true
           }
         },
+        "custom-block": {
+          "type": "custom-block",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -118,7 +123,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "custom-block"
       ],
       "settings": {
         "enable_sticky_info": true,
