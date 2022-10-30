@@ -239,6 +239,12 @@
     },
     "16585740671d1d04c2": {
       "type": "awesome",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "7c14f947-8eee-479f-9540-23502bbf3f9c": {
+      "type": "family-size",
       "settings": {
       }
     }
@@ -251,6 +257,7 @@
     "video",
     "multicolumn",
     "1659301229d05f7884",
-    "16585740671d1d04c2"
+    "16585740671d1d04c2",
+    "7c14f947-8eee-479f-9540-23502bbf3f9c"
   ]
 }
