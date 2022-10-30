@@ -55,6 +55,7 @@
         "custom-block": {
           "type": "custom-block",
           "settings": {
+            "custom-block": ""
           }
         },
         "description": {
@@ -118,13 +119,13 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom-block",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "custom-block"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
