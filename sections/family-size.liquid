@@ -1,0 +1,259 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+    h1{
+        font-size: 46px;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 300px;
+
+    }
+
+    .family-size-text{
+    width: 900px;
+    font-size: 34px;
+    text-align: center;
+    }
+
+    .mainmenubtn {
+    background-color: #0e9c9a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding:10px 15px;
+    width: 600px;
+    margin-top:400px;
+    border-radius: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    }
+    
+.mainmenubtn:hover {
+    background-color: #0e9c9a;
+    }
+
+
+.material-symbols-outlined.up {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,;
+  font-size: 78px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    min-width: 600px;
+    border: 1px solid #F338327A;
+    border-radius: 5px;
+    margin-top: 1px;
+    position: absolute;
+    max-height:250px;/* you can change as you need it */
+   overflow:auto;/* to get scroll */
+}
+.dropdown-child a {
+    color: #464646;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 46px;
+    
+}
+
+
+.dropdown-child a:hover {
+background-color: #D3FEF7 ;
+    
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+.dropdown:hover .mainmenubtn .material-symbols-outlined{
+    color: white;
+    display: none;
+}
+
+.dropdown:hover .mainmenubtn .material-symbols-outlined.up{
+    color: white;
+    display: inline-block;
+}
+
+@media (min-width: 1px)  and (max-width: 868px) {
+    .mainmenubtn {
+    padding:10px 15px;
+    width: 300px;
+    font-size: 18px;
+    height: 50px;
+
+
+    }
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,;
+  font-size: 38px;
+}
+
+.wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin-top: 300px;
+    }
+
+
+.material-symbols-outlined.up {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,;
+  font-size: 38px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    border: 1px solid #F338327A;
+    border-radius: 5px;
+    margin-top: 1px;
+    position: absolute;
+    max-height:250px;/* you can change as you need it */
+   overflow:auto;/* to get scroll */
+}
+.dropdown-child a {
+    color: #464646;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    
+}
+
+
+.dropdown-child a:hover {
+background-color: #D3FEF7 ;
+    
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+
+.dropdown:hover .mainmenubtn .material-symbols-outlined{
+    color: white;
+    display: none;
+}
+
+.dropdown:hover .mainmenubtn .material-symbols-outlined.up{
+    color: white;
+    display: inline-block;
+}
+
+}
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Summit Store</h1>
+        <div class="family-size-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa quo f ugiat dolorem, consequuntur quisquam, iusto distinctio eligendi quaerat suscipit, placeat quos necessitatibus aliquam. Porro cupiditate numquam vel beatae sapiente!
+            </p>
+        </div>
+  
+
+        <div class="dropdown">
+            <button class="mainmenubtn">Family Size
+                <span class="material-symbols-outlined">
+                arrow_drop_down
+                </span>
+                <span class="material-symbols-outlined up">
+                    arrow_drop_up
+                </span>
+                </button>
+            <div class="dropdown-child">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4+</a>
+               
+    
+            </div>
+    </div>
+</body>
+</html>
+
+
+{% schema %}
+{
+  "name": "Family Size",
+  "tag": "section",
+  "class": "section",
+  "presets": [
+      {
+        "name": "Family Size"
+      }
+    ]
+
+}
+
+{% endschema %}
