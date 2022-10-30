@@ -217,6 +217,12 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+            {%- when 'custom-block' -%}
+              {%if block.settings.custom-block %}
+              <div class="my-button-wrapper">
+                <a href="/" class="my-button">Next</a>
+              </div>
+              {%endif%}
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
