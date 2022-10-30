@@ -54,6 +54,7 @@
         },
         "custom-block": {
           "type": "custom-block",
+          "disabled": true,
           "settings": {
             "custom-block": ""
           }
