@@ -225,6 +225,15 @@
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
+     {% if template == 'index' %}
+      <style>
+      body {
+      background-image: url({{ 'sggradient.jpg' | asset_url }}) !important;
+      background-repeat: repeat;
+      background-size: cover;
+      }
+      </style>
+      {% endif %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
