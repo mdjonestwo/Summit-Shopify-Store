@@ -1,12 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    
+    <style>
+        .back-button{
+            display: flex ;
+            align-items: center;
+            color: #f18820;
+        }
+    
+        .back-button p{
+            padding-left: 10px;
+        }
+    </style>
+    
+    <body>
+        <div class="back-button">
+            <span class="material-symbols-outlined">
+                arrow_back
+                </span>
+            <p>Back to Summit Home</p>
+        </div>
+    </body>
+    </html>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Back Button",
+  "tag": "section",
+  "class": "section",
+  "presets": [
+      {
+        "name": "Back Button"
+      }
+    ]
+
+}
+
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
