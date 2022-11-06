@@ -1,5 +1,10 @@
 {
   "sections": {
+    "6bbf095b-4f02-4c03-b7c5-b2a7a88d5d6e": {
+      "type": "back-button",
+      "settings": {
+      }
+    },
     "16593007282a2a35d1": {
       "type": "rich-text",
       "blocks": {
@@ -80,6 +85,7 @@
     }
   },
   "order": [
+    "6bbf095b-4f02-4c03-b7c5-b2a7a88d5d6e",
     "16593007282a2a35d1",
     "product-grid",
     "16593740938cb5bead",
