@@ -1,5 +1,10 @@
 {
   "sections": {
+    "1a829335-3569-48b7-ba8f-8cc758423489": {
+      "type": "back-button",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -250,6 +255,7 @@
     }
   },
   "order": [
+    "1a829335-3569-48b7-ba8f-8cc758423489",
     "image_banner",
     "rich_text",
     "featured_collection",
