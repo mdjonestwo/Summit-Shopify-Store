@@ -1,5 +1,10 @@
 {
   "sections": {
+    "af79e139-a993-4802-bb2f-e11ead6e42bf": {
+      "type": "back-button",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -237,6 +242,7 @@
     }
   },
   "order": [
+    "af79e139-a993-4802-bb2f-e11ead6e42bf",
     "main",
     "image-with-text",
     "multicolumn",
