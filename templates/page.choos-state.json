@@ -1,5 +1,10 @@
 {
   "sections": {
+    "c09cc51e-6858-4e13-ba28-86eacecda1fb": {
+      "type": "back-button",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -15,6 +20,7 @@
     }
   },
   "order": [
+    "c09cc51e-6858-4e13-ba28-86eacecda1fb",
     "main",
     "ac60664b-e7c8-4bf8-b202-bff673bdcc9e"
   ]
