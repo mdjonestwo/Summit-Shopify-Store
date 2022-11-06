@@ -9,38 +9,28 @@
     </head>
     
     <style>
-        .back-button{
+        .back-button a{
             display: flex ;
             align-items: center;
             color: #f18820;
+            text-decoration: none;
         }
     
         .back-button p{
             padding-left: 10px;
         }
     </style>
+
+
     
     <body>
         <div class="back-button">
-            <span class="material-symbols-outlined">
-                arrow_back
-                </span>
-            <p>Back to Summit Home</p>
+            <a href="window.history.back();">
+                <span class="material-symbols-outlined">
+                    arrow_back
+                    </span>
+                <p>Back to Summit Home</p>
+            </a>
         </div>
     </body>
     </html>
-
-{% schema %}
-{
-  "name": "Back Button",
-  "tag": "section",
-  "class": "section",
-  "presets": [
-      {
-        "name": "Back Button"
-      }
-    ]
-
-}
-
-{% endschema %}
