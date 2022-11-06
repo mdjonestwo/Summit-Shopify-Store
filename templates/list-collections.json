@@ -1,15 +1,23 @@
 {
   "sections": {
+    "89fd5f64-ce84-4358-961b-7a59f501e6b6": {
+      "type": "back-button",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
       }
     }
   },
   "order": [
+    "89fd5f64-ce84-4358-961b-7a59f501e6b6",
     "main"
   ]
 }
