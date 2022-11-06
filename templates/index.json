@@ -2,6 +2,7 @@
   "sections": {
     "1a829335-3569-48b7-ba8f-8cc758423489": {
       "type": "back-button",
+      "disabled": true,
       "settings": {
       }
     },
