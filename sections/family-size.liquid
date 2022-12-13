@@ -225,6 +225,14 @@ background-color: #D3FEF7 ;
 
 </style>
 
+
+<script>
+    function dropdown()
+    {        
+        document.getElementById("dropdown").style.display="block";
+    }
+    </script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -247,7 +255,7 @@ background-color: #D3FEF7 ;
   
 
         <div class="dropdown">
-            <button class="mainmenubtn">Family Size...
+            <button class="mainmenubtn" onclick="dropdown()">Family Size...
                 <span class="material-symbols-outlined" style="font-size: 78px;">
                 arrow_drop_down
                 </span>
@@ -255,7 +263,7 @@ background-color: #D3FEF7 ;
                     arrow_drop_up
                 </span>
                 </button>
-            <div class="dropdown-child">
+            <div id="dropdown" class="dropdown-child">
                 <a href="https://summiterinc.store/collections/family-1">1</a>
                 <a href="https://summiterinc.store/collections/family-2">2</a>
                 <a href="https://summiterinc.store/collections/family-3">3</a>
