@@ -189,6 +189,13 @@ background-color: #D3FEF7 ;
 
 </style>
 
+<script>
+    function dropdown()
+    {        
+        document.getElementById("dropdown").style.display="block";
+    }
+</script>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -210,7 +217,7 @@ background-color: #D3FEF7 ;
 
     <div class="wrapper">
         <div class="dropdown">
-            <button class="mainmenubtn">Select Your State...  
+            <button class="mainmenubtn" onclick="dropdown()">Select Your State...  
                 <span class="material-symbols-outlined">
                 arrow_drop_down
                 </span>
@@ -218,7 +225,7 @@ background-color: #D3FEF7 ;
                     arrow_drop_up
                 </span>
                 </button>
-            <div class="dropdown-child">
+            <div id="dropdown" class="dropdown-child">
                 <a href="https://summit-environmental.myshopify.com/collections/region-4">Alabama</a>
                 <a href="https://summit-environmental.myshopify.com/collections/region-10">Alaska</a>
                 <a href="https://summit-environmental.myshopify.com/collections/region-9">American Samoa</a>
