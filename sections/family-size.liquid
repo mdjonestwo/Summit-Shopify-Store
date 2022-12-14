@@ -1,56 +1,27 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-    h1{
-        font-size: 36px;
-    }
     .wrapper{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        margin-top: 100px;
-        margin-bottom: 200px;
+        width: 100vw;
+        margin-top: 300px;
+        margin-bottom: 300px;
         max-height: fit-content;
 
     }
-
-    .wrapper h1{
-      font-weight: bold;
-      color: #0e9b99;
-      margin: 0;
-      font-style: italic;
-    }
-
-    .wrapper .title span{
-      color:#f18820;
-    }
-    
-    .family-size-text{
-    width: 900px;
-    font-size: 24px;
-    text-align: center;
-    color: white;
-    }
-  
-  @media screen and (max-width: 915px) and (min-width:360px ) {
-    .family-size-text {
-      width: 80%;
-    }
-
-  }
-
     .mainmenubtn {
     background-color: #0e9c9a;
     color: white;
     border: none;
     cursor: pointer;
     text-align: left;
-    padding:6px 10px;
+    padding:10px 15px;
     width: 600px;
-    margin-top:400px;
+    margin-top:20px;
     border-radius: 5px;
-    font-size: 36px;
+    font-size: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,8 +39,8 @@
   'wght' 400,
   'GRAD' 0,
   'opsz' 48;
-  font-size: 78px;
-  display: none;
+
+  /* display: none; */
 }
 
 .material-symbols-outlined {
@@ -94,7 +65,7 @@
     margin-top: 1px;
     position: absolute;
     max-height:250px;/* you can change as you need it */
-   overflow:auto;/* to get scroll */
+    overflow:auto;/* to get scroll */
 }
 .dropdown-child a {
     color: #464646;
@@ -110,29 +81,29 @@
 background-color: #D3FEF7 ;
     
 }
-.dropdown:hover .dropdown-child {
+/* .dropdown:hover .dropdown-child {
     display: block;
-}
+} */
 
 
-.dropdown:hover .mainmenubtn .material-symbols-outlined{
+.dropdown.mainmenubtn .material-symbols-outlined{
     color: white;
     display: none;
 }
 
-.dropdown:hover .mainmenubtn .material-symbols-outlined.up{
+.dropdown.mainmenubtn .material-symbols-outlined.up{
     color: white;
     display: inline-block;
 }
 
 @media (min-width: 1px)  and (max-width: 868px) {
     .mainmenubtn {
-    margin-top:455px;
     padding:10px 15px;
     width: 300px;
     font-size: 18px;
     height: 50px;
-    
+
+
     }
  
 .material-symbols-outlined {
@@ -141,7 +112,7 @@ background-color: #D3FEF7 ;
   'wght' 400,
   'GRAD' 0,
   'opsz' 48,;
-   font-size: 78px;
+  font-size: 38px;
 }
 
 .wrapper{
@@ -149,20 +120,16 @@ background-color: #D3FEF7 ;
         justify-content: center;
         align-items: center;
         width: 100vw;
-        margin-top: 80px;
+        margin-top: 300px;
     }
 
-.wrapper h1 {
-  width: 85%;
-  text-align: center;
-}
+
 .material-symbols-outlined.up {
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48;
-  font-size: 78px;
 
   display: none;
 }
@@ -173,11 +140,10 @@ background-color: #D3FEF7 ;
   'wght' 400,
   'GRAD' 0,
   'opsz' 48,;
-  font-size: 78px;
+  font-size: 38px;
 }
 
 .dropdown {
-    
     position: absolute;
     display: inline-block;
 }
@@ -206,36 +172,44 @@ background-color: #D3FEF7 ;
 background-color: #D3FEF7 ;
     
 }
-.dropdown:hover .dropdown-child {
-    
+.dropdowns .dropdown-child {
+    display: block;
 }
 
 
 
-.dropdown:hover .mainmenubtn .material-symbols-outlined{
+.dropdown .mainmenubtn .material-symbols-outlined{
+    color: white;
+  
+}
+
+.dropdown .mainmenubtn .material-symbols-outlined.up{
     color: white;
    
-}
-
-.dropdown:hover .mainmenubtn .material-symbols-outlined.up{
-    color: white;
-    display: inline-block;
 }
 
 }
 
 </style>
 
-
 <script>
+
     function dropdown()
     {        
-           if ( document.getElementById("dropdown").style.display === "block")
+        if ( document.getElementById("dropdown").style.display === "block")
         {
-            document.getElementById("dropdown").style.display="none"; 
+            document.getElementById("dropdown").style.display="none";
+            document.getElementById("down").style.display="inline";
+            document.getElementById("up").style.display="none"; 
+
         } else { 
             document.getElementById("dropdown").style.display="block";
+            document.getElementById("down").style.display="none"; 
+            document.getElementById("up").style.display="inline"; 
+
+        
         }
+      
     }
     </script>
 
