@@ -69,7 +69,6 @@
   'GRAD' 0,
   'opsz' 48;
   font-size: 78px;
-  display: none;
 }
 
 .material-symbols-outlined {
@@ -110,19 +109,18 @@
 background-color: #D3FEF7 ;
     
 }
-.dropdown:hover .dropdown-child {
+.dropdown .dropdown-child {
     display: block;
 }
 
 
-.dropdown:hover .mainmenubtn .material-symbols-outlined{
+.dropdown .mainmenubtn .material-symbols-outlined{
     color: white;
-    display: none;
+
 }
 
-.dropdown:hover .mainmenubtn .material-symbols-outlined.up{
+.dropdown .mainmenubtn .material-symbols-outlined.up{
     color: white;
-    display: inline-block;
 }
 
 @media (min-width: 1px)  and (max-width: 868px) {
@@ -164,7 +162,7 @@ background-color: #D3FEF7 ;
   'opsz' 48;
   font-size: 78px;
 
-  display: none;
+
 }
 
 .material-symbols-outlined {
@@ -206,20 +204,20 @@ background-color: #D3FEF7 ;
 background-color: #D3FEF7 ;
     
 }
-.dropdown:hover .dropdown-child {
-    
+.dropdown .dropdown-child {
+    display: blcok
 }
 
 
 
-.dropdown:hover .mainmenubtn .material-symbols-outlined{
+.dropdown .mainmenubtn .material-symbols-outlined{
     color: white;
    
 }
 
-.dropdown:hover .mainmenubtn .material-symbols-outlined.up{
+.dropdown .mainmenubtn .material-symbols-outlined.up{
     color: white;
-    display: inline-block;
+    
 }
 
 }
@@ -230,12 +228,20 @@ background-color: #D3FEF7 ;
 <script>
     function dropdown()
     {        
-           if ( document.getElementById("dropdown").style.display === "block")
+        if ( document.getElementById("dropdown").style.display === "block")
         {
-            document.getElementById("dropdown").style.display="none"; 
+            document.getElementById("dropdown").style.display="none";
+            document.getElementById("down").style.display="inline";
+            document.getElementById("up").style.display="none"; 
+
         } else { 
             document.getElementById("dropdown").style.display="block";
+            document.getElementById("down").style.display="none"; 
+            document.getElementById("up").style.display="inline"; 
+
+        
         }
+      
     }
     </script>
 
