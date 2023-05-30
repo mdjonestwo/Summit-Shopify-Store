@@ -50,6 +50,28 @@
         "padding_bottom": 40
       }
     },
+    "6de034d0-5948-417d-b2ad-4370127baea1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16296995651812__6de034d0-5948-417d-b2ad-4370127baea1-168548569121021946-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>New England Region: Region 1<\/strong><\/p><p>Maine, Massachusetts, New Hampshire, Rhode Island, Vermont<\/p><p>Primary Hazards: Hurricane, Earthquake<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16296995651812__6de034d0-5948-417d-b2ad-4370127baea1-168548569121021946-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16593740938cb5bead": {
       "type": "featured-collection",
       "disabled": true,
@@ -110,6 +132,7 @@
     "99db4454-23bb-4312-8657-db0e44a6f549",
     "0a0c4fa5-8fcf-4742-b32a-785c7b977027",
     "16593007282a2a35d1",
+    "6de034d0-5948-417d-b2ad-4370127baea1",
     "16593740938cb5bead",
     "banner",
     "product-grid"
