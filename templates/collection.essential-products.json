@@ -11,26 +11,12 @@
         "template--16296995651812__0a0c4fa5-8fcf-4742-b32a-785c7b977027-16854787052ea08040-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>New England Region: Region 1<\/strong><\/p><p>Maine, Massachusetts, New Hampshire, Rhode Island, Vermont<\/p><p>Primary Hazards: Hurricane, Earthquake<\/p>"
-          }
-        },
-        "b5b8d2d0-9a2e-4279-bae2-7fa7a2b8de23": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Atlantic Region: Region 2<\/strong><\/p><p>New York, New Jersey, Puerto Rico, U.S. Virgin Islands<\/p><p>Primary Hazards: Hurricanes, Floods, Wildfires, Winder Storms, Landslides, Drought, Tornado<\/p>"
-          }
-        },
-        "a0cfecb7-c545-4724-bfc5-ee0cb2ad01fe": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Mid-Atlantic Region: Region 3<\/strong><\/p><p>Delaware, Maryland, Pennsylvania, Virginia, Washington DC, West Virginia<\/p><p>Primary Hazards:  Hurricane, Floods, Extreme Heat, Winter Storms, Earthquakes, Power outage<\/p>"
+            "text": "<p><strong>New England Region: Region 1<\/strong><\/p><p>Maine, Massachusetts, New Hampshire, Rhode Island, Vermont<\/p><p>Primary Hazards: Hurricane, Earthquake<\/p><p><strong>Atlantic Region: Region 2<\/strong><\/p><p>New York, New Jersey, Puerto Rico, U.S. Virgin Islands<\/p><p>Primary Hazards: Hurricanes, Floods, Wildfires, Winder Storms, Landslides, Drought, Tornado<\/p><p><strong>Mid-Atlantic Region: Region 3<\/strong><\/p><p>Delaware, Maryland, Pennsylvania, Virginia, Washington DC, West Virginia<\/p><p>Primary Hazards:  Hurricane, Floods, Extreme Heat, Winter Storms, Earthquakes, Power outage<\/p><p><strong>Southeast Region: Region 4<\/strong><\/p><p>Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee<\/p><p>Primary Hazards: Tornado, Hurricane, Severe Storms<\/p><p><strong>Great Lakes Region: Region 5<\/strong><\/p><p>Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin<\/p><p>Primary Hazards: Tornado, Severe Storms, Snow<\/p><p><strong>South Central Region: Region 6<\/strong><\/p><p>Arkansas, Louisiana, New Mexico, Oklahoma, Texas<\/p><p>Primary Hazards: Hurricane, Severe Storms, Fires, Tornado, Floods<\/p><p><strong>Great Plains Region: Region 7<\/strong><\/p><p>Iowa, Kansas, Missouri, Nebraska<\/p><p>Primary Hazards: Tornado, Flood, Severe Storms<\/p><p><strong>Rocky Mountain Region: Region 8<\/strong><\/p><p>Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming<\/p><p>Primary Hazards: Flood, Severe Storm, Tornado, Wildfires<\/p><p><strong>Pacific Region: Region 9<\/strong><\/p><p>Arizona, California, Guam, Hawaii, Nevada, American Samoa, Commonwealth of Northern Mariana Islands, Republic of Marshall Islands, Federated States of Micronesia<\/p><p>Primary Hazards: Flood, Wildfires<\/p><p><strong>Pacific Northwest Region: Region 10<\/strong><\/p><p>Alaska, Idaho, Oregon, Washington<\/p><p>Primary Hazards: Severe Storms, Flood, Wildfires, Earthquakes, Landslides, Drought, Volcano<\/p><p><\/p>"
           }
         }
       },
       "block_order": [
-        "template--16296995651812__0a0c4fa5-8fcf-4742-b32a-785c7b977027-16854787052ea08040-1",
-        "b5b8d2d0-9a2e-4279-bae2-7fa7a2b8de23",
-        "a0cfecb7-c545-4724-bfc5-ee0cb2ad01fe"
+        "template--16296995651812__0a0c4fa5-8fcf-4742-b32a-785c7b977027-16854787052ea08040-1"
       ],
       "settings": {
         "desktop_content_position": "center",
