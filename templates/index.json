@@ -249,6 +249,22 @@
       "settings": {
       }
     },
+    "9dd61eb0-cc43-4876-aca5-69c07042e195": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pumpkin-patch-girl.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "7c14f947-8eee-479f-9540-23502bbf3f9c": {
       "type": "family-size",
       "settings": {
@@ -265,6 +281,7 @@
     "multicolumn",
     "1659301229d05f7884",
     "16585740671d1d04c2",
+    "9dd61eb0-cc43-4876-aca5-69c07042e195",
     "7c14f947-8eee-479f-9540-23502bbf3f9c"
   ]
 }
