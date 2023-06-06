@@ -222,17 +222,25 @@
     },
     "1659301229d05f7884": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16593012298e2560dc-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Select your state<\/p>"
+          }
+        },
+        "3b67eb71-df6d-45b1-8ad8-82b8e1f63764": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Summit Environmental, Inc.<\/h1>",
+            "heading_size": "hxl"
           }
         }
       },
       "block_order": [
-        "16593012298e2560dc-1"
+        "16593012298e2560dc-1",
+        "3b67eb71-df6d-45b1-8ad8-82b8e1f63764"
       ],
       "settings": {
         "desktop_content_position": "center",
