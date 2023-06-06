@@ -249,20 +249,115 @@
       "settings": {
       }
     },
-    "9dd61eb0-cc43-4876-aca5-69c07042e195": {
-      "type": "image-banner",
+    "79597f23-34a9-4ce5-9a54-cda4288b78af": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16294825722084__79597f23-34a9-4ce5-9a54-cda4288b78af-1686077450664e1a7d-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pumpkin-patch-girl.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "4b43a5a2-5c03-4748-be7f-41645b657235": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/200527-stock.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "fa857212-25ec-42a7-9245-c38cb645ea10": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/273443740_147046217699069_3989319581591065803_n.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "778e18e2-8d6f-4568-bfda-3d20245a95b9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/272989960_147045781032446_5797404813924040993_n.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16294825722084__79597f23-34a9-4ce5-9a54-cda4288b78af-1686077450664e1a7d-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/273435707_147046457699045_1237691968970671418_n_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16294825722084__79597f23-34a9-4ce5-9a54-cda4288b78af-1686077450664e1a7d-0",
+        "4b43a5a2-5c03-4748-be7f-41645b657235",
+        "fa857212-25ec-42a7-9245-c38cb645ea10",
+        "778e18e2-8d6f-4568-bfda-3d20245a95b9",
+        "template--16294825722084__79597f23-34a9-4ce5-9a54-cda4288b78af-1686077450664e1a7d-1"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pumpkin-patch-girl.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "7c14f947-8eee-479f-9540-23502bbf3f9c": {
@@ -281,7 +376,7 @@
     "multicolumn",
     "1659301229d05f7884",
     "16585740671d1d04c2",
-    "9dd61eb0-cc43-4876-aca5-69c07042e195",
+    "79597f23-34a9-4ce5-9a54-cda4288b78af",
     "7c14f947-8eee-479f-9540-23502bbf3f9c"
   ]
 }
