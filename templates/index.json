@@ -233,7 +233,7 @@
         "3b67eb71-df6d-45b1-8ad8-82b8e1f63764": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>DisasterSupplies.Store<\/strong><\/h1>",
+            "heading": "",
             "heading_size": "h2"
           }
         }
@@ -298,6 +298,7 @@
         },
         "fa857212-25ec-42a7-9245-c38cb645ea10": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/273443740_147046217699069_3989319581591065803_n.jpg",
             "heading": "",
@@ -316,7 +317,6 @@
         },
         "778e18e2-8d6f-4568-bfda-3d20245a95b9": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/272989960_147045781032446_5797404813924040993_n.jpg",
             "heading": "",
