@@ -479,12 +479,12 @@
     "27cbf712-5226-4dbf-902f-353a3020d0d3": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "3 Person Emergency Kits",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "3-person-emergency-kits",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
