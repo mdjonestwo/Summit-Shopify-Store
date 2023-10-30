@@ -425,13 +425,13 @@
     "301f61b0-db46-4ace-ba7a-214b2e394cd6": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured Products",
+        "title": "1 Person Emergency Kits",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "essential-products",
-        "products_to_show": 12,
+        "collection": "1-person-emergency-kits",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -445,8 +445,35 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "841a12c2-fdb8-4557-8a99-9f84c15907bf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2 Person Emergency Kits",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "2-person-emergency-kits",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     }
   },
@@ -463,6 +490,7 @@
     "79597f23-34a9-4ce5-9a54-cda4288b78af",
     "858a1a94-4c25-4d14-ad76-8b283584d8d9",
     "7c14f947-8eee-479f-9540-23502bbf3f9c",
-    "301f61b0-db46-4ace-ba7a-214b2e394cd6"
+    "301f61b0-db46-4ace-ba7a-214b2e394cd6",
+    "841a12c2-fdb8-4557-8a99-9f84c15907bf"
   ]
 }
