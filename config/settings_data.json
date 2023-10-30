@@ -102,6 +102,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "8ce1fe32-fac3-4041-a331-d06f86831f94": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to DISASTERSUPPLIES.STORE",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "8ce1fe32-fac3-4041-a331-d06f86831f94"
+        ],
         "settings": {
         }
       },
