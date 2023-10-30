@@ -8,7 +8,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -41,6 +40,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -56,7 +56,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -76,6 +75,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -115,7 +115,6 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -142,6 +141,7 @@
         "product",
         "collection-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -168,7 +168,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -203,6 +202,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -262,6 +262,7 @@
       "blocks": {
         "template--16294825722084__79597f23-34a9-4ce5-9a54-cda4288b78af-1686077450664e1a7d-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/pumpkin-patch-girl.jpg",
             "heading": "",
@@ -370,8 +371,51 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "858a1a94-4c25-4d14-ad76-8b283584d8d9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16294825722084__858a1a94-4c25-4d14-ad76-8b283584d8d9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Welcome to DISASTERSUPPLIES.STORE<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16294825722084__858a1a94-4c25-4d14-ad76-8b283584d8d9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our assortment of Emergency Kits and other Essential Supplies are designed for evacuation or sheltering in place during a natural disaster (Hurricane, Tornado, Flood, Severe Weather,       and other Disasters).<\/p>"
+          }
+        },
+        "template--16294825722084__858a1a94-4c25-4d14-ad76-8b283584d8d9-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16294825722084__858a1a94-4c25-4d14-ad76-8b283584d8d9-heading-1",
+        "template--16294825722084__858a1a94-4c25-4d14-ad76-8b283584d8d9-text-1",
+        "template--16294825722084__858a1a94-4c25-4d14-ad76-8b283584d8d9-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "7c14f947-8eee-479f-9540-23502bbf3f9c": {
       "type": "family-size",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -417,6 +461,7 @@
     "1659301229d05f7884",
     "16585740671d1d04c2",
     "79597f23-34a9-4ce5-9a54-cda4288b78af",
+    "858a1a94-4c25-4d14-ad76-8b283584d8d9",
     "7c14f947-8eee-479f-9540-23502bbf3f9c",
     "301f61b0-db46-4ace-ba7a-214b2e394cd6"
   ]
